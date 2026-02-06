@@ -4,6 +4,7 @@ import Home from './pages/authentication/blog/Home'
 import Register from './pages/authentication/Register'
 import Login from './pages/authentication/Login'
 import AddBlog from './pages/authentication/Blog/AddBlog'
+import Cards from './pages/authentication/blog/components/cards/Cards'
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
         <Route path='/register' element={<Register />} />
         <Route path='/login' element={<Login />} />
         <Route path='/addBlog' element={<AddBlog />} />
+        <Route path='/card' element={<Cards />} />
       </Routes>
     </BrowserRouter>
         )
